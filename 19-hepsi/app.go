@@ -72,5 +72,7 @@ func main(){
 		}
 
 		fmt.Println(i, title,content)
+
+		
 	})
 }
