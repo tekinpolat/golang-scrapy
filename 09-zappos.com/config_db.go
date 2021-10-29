@@ -6,3 +6,8 @@ const (
 	DB_DB 		= "scrapy_go"
 	DB_PORT 	= 5432
 )
+
+
+func yazdir(){
+
+}
