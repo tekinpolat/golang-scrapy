@@ -15,14 +15,11 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	_ "github.com/go-sql-driver/mysql"
-	"db"
 )
 
 func main(){
 
 	fmt.Println("Starting")
-
-	db.yazdir()
 	//database
 	db, err := sql.Open("mysql", "tknplt:Tknplt21.@tcp(127.0.0.1:3306)/hepsi")
 
@@ -73,6 +70,6 @@ func main(){
 
 		fmt.Println(i, title,content)
 
-		
+
 	})
 }
